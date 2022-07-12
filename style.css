@@ -1,0 +1,322 @@
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Abril Fatface';
+  font-weight: bold !important;
+  color: #C14953!important;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  color: #C14953!important;
+  font-size: 15px;
+}
+
+
+#first-fold {
+  display: flex;
+}
+
+#second-fold {
+  margin-top: 40px;
+  display: flex;
+}
+
+#third-fold {
+  margin-top: 40px;
+  display: flex;
+  
+}
+
+
+#first-fold > .content > h1 {
+    font-size: 2.5rem;
+    line-height: 50px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+
+
+.covid-collapse-btn {
+    color: #C14953 !important;
+    border: 0;
+     
+}
+    
+    
+.illustration-img {
+  position: relative;
+  width: 100%;
+  top: 250px;
+  right: 30px;
+}
+
+.nav-list {
+  grid-gap: 50px;
+}
+
+.countryInput {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  color: #b6444d;
+  font-size: 16px;
+  font-weight: bold;
+  border:2px solid #b6444d;
+}
+
+
+
+#text {
+  font-family: 'Abril Fatface';
+  font-weight: bold;
+  color: #C14953;
+  text-align: center;
+}
+
+.dropdown-country {
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 481px) {
+
+.navbar-brand > img {
+  height: 40px;
+}
+
+
+.covid-collapse-btn {
+  color: #C14953 !important;
+  border: 0;
+}
+
+.collapse {
+  font-family: 'Abril Fatface';
+  font-size: large;
+  font-weight: bold;
+}
+
+#first-fold > .content > h1 {
+  font-size: 3.5rem;
+  line-height: 50px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.content {
+  padding: 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.illustration-img {
+  width: 90%;
+}
+
+
+.start {
+  background-color:#C14953;
+  display: flex;
+  font-family: 'Abril Fatface';
+  font-weight: bold;
+  border-radius: 20px;
+  color: white;
+  position: relative;
+  border: 0;
+  padding: 10px;
+  width: 200px;
+  text-decoration: none;
+  justify-content: center;
+
+}
+
+.start:hover {
+  background-color:#b6444d;
+  color: white;
+}  
+
+
+}
+
+/* mobile styling: small  */
+@media screen and (min-width: 555px) {
+
+
+.illustration-img {
+  position: relative;
+  top: 350px;
+  right: 30px;
+}
+
+}
+
+/* ipad styling: small */ 
+
+@media screen and (min-width: 605px) {
+
+.content {
+  padding: 20px;
+}
+ 
+
+.illustration-img {
+  position: relative;
+  top: 135px;
+  
+}
+
+}
+
+
+/* ipad pro styling : large */
+@media screen and (min-width: 993px) {
+
+.content {
+  padding: 20px;
+}
+
+.illustration-img {
+  width: 70%;
+}
+
+}
+
+/* desktop styling : large */
+@media screen and (min-width: 1100px) {
+
+.content {
+  padding: 20px;
+}
+
+
+#first-fold > .content > h1 {
+  font-size: 4.0rem;
+  line-height: 70px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+#second-fold > .content > h1 {
+  font-size: 4.0rem;
+  line-height: 70px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+#third-fold > .content > h1 {
+  font-size: 4.0rem;
+  line-height: 70px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.illustration-img {
+  position: relative;
+  top: 55px;
+  width: 70%;
+
+}
+  
+.nav-link {
+text-align: center;
+
+}
+ 
+}
+  
+  
+  /* desktop styling : large */
+ @media screen and (min-width: 1400px) {
+
+.content {
+  padding: 20px;
+}
+
+.illustration-img {
+  width: 90%;
+}
+
+
+#first-fold {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: column;
+}
+
+#second-fold {
+  display: grid;
+  /* grid-auto-columns: 1fr; */
+  grid-auto-flow: column;
+}
+
+#third-fold {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: column;
+}
+
+#chart {
+  overflow-y: hidden;
+}
+  
+}
+
+.start {
+  background-color:#C14953;
+  font-family: 'Abril Fatface';
+  font-weight: bold;
+  border-radius: 20px;
+  color: white;
+  position: relative;
+  border: 0;
+  padding: 10px 87px;
+  font-size: 24px;
+  text-decoration: none;
+  text-align: center;
+} 
+
+
+.start:hover {
+  background-color:#b6444d;
+  color: white;
+}  
+
+.page {
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+
+}
+
+#all-pages {
+  position: relative;
+}
+
+.hidden {
+  transform: translateX(-150%);
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  transform: translateX(0);
+}
+
+.chart-bar {
+  height: 600px;    
+  overflow-y: scroll;
+  border-radius: 20px;
+}
+
+#chart {
+  max-width: 1000px;;
+}
+
