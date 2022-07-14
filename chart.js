@@ -11,11 +11,11 @@ function displayChart(data) {
     const dailyCases = reverseData.map((daily, index) => {
         return Math.abs(daily.Confirmed)
     }).splice(1, 20);
-    TotalConfirmed = dailyCases
+    TotalConfirmed = dailyCases.reverse()
 
     const dateCases = reverseData.map((daily, index) => {
         return daily.Date
-    }).splice(1, 20);
+    }).splice(1, 20).reverse();
     recordDate = moment(dateCases).format('YYYY-MM-DDTHH')
 
     console.log(data)
