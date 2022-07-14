@@ -20,12 +20,12 @@ p {
 }
 
 #second-fold {
-  margin-top: 40px;
   display: flex;
+  max-width: 100vw;
 }
 
 #third-fold {
-  margin-top: 40px;
+  /* margin-top: 40px; */
   display: flex;
   
 }
@@ -108,11 +108,14 @@ p {
 
 .content {
   padding: 20px;
-  max-width: 1200px;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
+.symptoms {
+  margin-left: 10px;
+}
 
 .illustration-img {
   width: 90%;
@@ -250,7 +253,7 @@ text-align: center;
 
 #second-fold {
   display: grid;
-  /* grid-auto-columns: 1fr; */
+  grid-auto-columns: 1fr;
   grid-auto-flow: column;
 }
 
