@@ -50,3 +50,25 @@ For the bugs and limitations, I find that I can’t create a default country tha
 ### USER STORIES
 
 
+| USER STORIES | ACCEPTANCE CRITERIA(S) |
+| ---- | ----- |
+| As a researcher, I would like to see how a country is managing the pandemic and gather data for my own research.| Charts displayed must be able to update based on a range of days. |
+| As a government agent, I would like to see the different sets of Covid-19 data collected and updated so that I can use it as a basis for preventive measures and decisions towards new policy and/or policy changes in terms of public health.| Site should provide visualization from data collected in the form of a chart, wherein it is easy to comprehend.|
+| As a tourist, I would like to see the active Covid-19 cases and vaccine rate of the country I am interested in so that I would know if I can travel safely without certain limitations.| Pie charts displayed are filtered by country and show the percentages of people vaccinated and partially vaccinated.|
+|As a citizen, I would like to see my own country's progress in fighting Covid-19 and show whenever I should begin taking necessary health measures when I see the cases increasing.| Charts displayed should be easy for users to comprehend.|
+
+### TECHNOLOGIES USED
+
+- HTML is used to host website content.
+- CSS and Bootstrap for designing the website.
+- Javascript is primarily used for apex chart functionalities such as filtering and mapping data.
+- Font Awesome for the icons used.
+- Google Fonts for the font.
+- AJAX queries handled by AXIOS.
+- ApexCharts is responsible for all of the graphs and charts displayed.
+- Git desktop was used for pushing the changes and developments I made for the repository.
+- The repository is hosted on GitHub.
+- Visual Studio Code is used for code editing, and a local server is used.
+
+
+
