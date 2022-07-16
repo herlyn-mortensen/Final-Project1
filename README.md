@@ -70,5 +70,15 @@ For the bugs and limitations, I find that I can’t create a default country tha
 - The repository is hosted on GitHub.
 - Visual Studio Code is used for code editing, and a local server is used.
 
+### TEST CASES
 
-
+| CATERGORY | INPUT/ACTIONS | OUTPUT/ERRORS|
+| :---: | :---: | :---:|
+| OVERALL | Mobile Responsive Check | Charts are responsive with change of screen sizes.|
+| CHART FUNCTION | On load | Displays empty chart structure, does not show any default country.|
+| | Dropdown button filtering | Show different countries with different data.|
+| | | Shows the correct data per country.|
+| | Hovering across the chart. | Will show numeric data of the chart.|
+| Nav Bar | Hover | Arrow turns to a pointer icon.|
+| | On press | User is led to another page. Single page application is applied on the first page, symptoms and prevention page.|
+| | Responsive | Navigation bar turns into a burger icon.|
