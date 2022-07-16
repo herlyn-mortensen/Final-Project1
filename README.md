@@ -82,3 +82,34 @@ For the bugs and limitations, I find that I can’t create a default country tha
 | Nav Bar | Hover | Arrow turns to a pointer icon.|
 | | On press | User is led to another page. Single page application is applied on the first page, symptoms and prevention page.|
 | | Responsive | Navigation bar turns into a burger icon.|
+
+### PLATFORM USED
+
+- Github for CI/CD
+- Access live [Web Application](https://herlyn-mortensen.github.io/Final-Project1/) via Github 
+- To deploy my project to your local machine
+  - Go to https://github.com/herlyn-mortensen/Final-Project1
+  - Download my project repository
+    > gh repo clone herlyn-mortensen/Final-Project1
+- Dependencies used
+  - HTML, CSS and Bootstrap
+    - To house the main content of the site.
+  - Google fonts, Fontawesome and Canva.
+    - These were used to improve the design of the site.
+
+
+### CREDITS
+
+- DATA
+  - https://github.com/M-Media-Group/Covid-19-API
+  - https://api.covid19api.com/summary
+  - https://api.coronatracker.com/
+
+- ILLUSTRATIONS
+  - https://www.canva.com/
+
+- FONTS
+  - https://fonts.google.com/
+
+
+
