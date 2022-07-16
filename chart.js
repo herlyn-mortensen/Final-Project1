@@ -32,12 +32,7 @@ function displayChart(data) {
         stroke: {
             curve: 'smooth'
           },
-        // plotOptions: {
-        //     bar: {
-        //         borderRadius: 4,
-        //         horizontal: false,
-        //     }
-        // },
+
         dataLabels: {
             enabled: false
         },
@@ -51,48 +46,6 @@ function displayChart(data) {
     chart.render();
 }
 
-function displayGraph(data) {
-    let reverseData = data.reverse()
-    const dailyDeaths = reverseData.map((daily, index) => {
-        return Math.abs(daily.new_deaths)
-    }).splice(1, 20);
-    totalDeaths = dailyDeaths.reverse()
-
-    // const dailyRecovery = reverseData.map((daily, index) => {
-    //     return Math.abs(daily.new_recovered)
-    // }).splice(1, 20);
-    // totalRecovery = dailyRecovery.reverse()
-
-    const dateCases = reverseData.map((daily, index) => {
-        return daily.Date
-    }).splice(1, 20).reverse();
-    recordDate = moment(dateCases).format('YYYY-MM-DDTHH')
-
-    console.log(data)
-    var options = {
-        series: [{
-            name: 'deaths',
-            data: totalDeaths
-        },],
-        chart: {
-            type: 'area',
-            height: 500,
-        },
-        
-        dataLabels: {
-            enabled: false
-        },
-        stroke: {
-          curve: 'smooth'
-        },
-        xaxis: {
-          categories: dateCases,
-        },
-        };
-
-    const chart = new ApexCharts(document.querySelector(".graphDiv"), options);
-    chart.render();
-}
 
 function getCovidData(country) {
 
@@ -104,13 +57,6 @@ function getCovidData(country) {
         })
         .catch(err => console.warn(err));
 
-    axios.get(`https://api.covid19api.com/total/dayone/country/${country}`)
-    .then(response => (response.data))
-    .then(data => {
-        graphDiv.innerHTML = "";
-        displayGraph(data);
-    })
-    .catch(err => console.warn(err));
 
 }
 
