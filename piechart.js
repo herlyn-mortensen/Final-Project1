@@ -20,14 +20,16 @@ async function loadData() {
         let vaccinated = jsonData[country]['All']['people_vaccinated']
         let partially_vaccinated = jsonData[country]['All']['people_partially_vaccinated']
         let population = jsonData[country]['All']['population']
+        let unvaccinated = population - vaccinated
+        
         options = {
             'chart':{
                 'type':'pie',
                 'height':'100%',
                 'width':'100%',
             },
-            'series':[vaccinated, partially_vaccinated, population],
-            'labels':["Vaccinated", "Partially Vaccinated", "Not Vaccinated"],
+            'series':[vaccinated, partially_vaccinated, unvaccinated],
+            'labels':["Vaccinated", "Partially Vaccinated", "Unvaccinated"],
             'colors':['#cdcdf7', '#fbb3cf', '#c14953']
         }
         const chart = new ApexCharts(
