@@ -1,4 +1,7 @@
 # Final-Project1
+![Screenshot 2022-07-16 at 13 42 37](https://user-images.githubusercontent.com/91460556/179353405-7cddf87f-e08e-48e5-aeff-dc8b13158c4e.png)
+
+
 
 ### PROJECT OVERVIEW
 
@@ -37,6 +40,10 @@ The data structure should be easy to understand for general public users, and th
 - Red color signifies virus and alertness. It was used for the primary color of the site/app.
 - Font awesome icons are also used to designate specific elements such as green bullet check points.
 - Illustrations are also used to convey the text information better.
+
+###### COLOR SCHEME
+
+![Banner (4)](https://user-images.githubusercontent.com/91460556/179353362-3a2e8a9b-5044-49c2-afa2-f74832d1a690.png)
 
 
 ### FEATURES
