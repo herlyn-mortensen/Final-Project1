@@ -8,7 +8,11 @@ Covid-19 Updates aims to provide updated data of confirmed Covid-19 cases and va
 
 The data structure should be easy to understand for general public users, and the site should be able to provide country filters, a bar chart for confirmed cases, and a pie chart for vaccine rates - stating the completely vaccinated, partially vaccinated, and non-vaccinated per country.
 
+**LIVE SITE [DEMO](https://herlyn-mortensen.github.io/Final-Project1/)** :tent:
+
 ### FIVE PLANES OF UX/UI
+
+**FIGMA [LINK](https://www.figma.com/file/TDyAQ5QuwsHfsVkufzZtzk/Project-1?node-id=0%3A1)** :circus_tent:
 
 1. Strategy
 - The site exists to give Covid-19 updates, specifically the number of confirmed cases per day and vaccine rates per country. Data should be both accessible for website and mobile use.
@@ -33,3 +37,16 @@ The data structure should be easy to understand for general public users, and th
 - Red color signifies virus and alertness. It was used for the primary color of the site/app.
 - Font awesome icons are also used to designate specific elements such as green bullet check points.
 - Illustrations are also used to convey the text information better.
+
+
+### FEATURES
+
+The interactive charts on the site are the major feature, allowing the visitor to observe different numeric data on Covid-19 instances and vaccine rate. It also has a drop down menu where you may select different countries and project data from the selected one.
+
+With pending implementations, the site has plans on adding a global map feature with colors contrasts and descriptions that shows which countries have high covid rates, high vaccine rates and travel information. It can also feature the latest news and articles on potential new vaccines and developments against Covid-19 as well as other potential new viruses and variants. 
+
+For the bugs and limitations, I find that I can’t create a default country that the chart can show before I even select another country on the drop down menu.
+
+### USER STORIES
+
+
